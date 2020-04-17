@@ -6,7 +6,7 @@ public abstract class RoomProvider {
 	 * @param roomType of Room
 	 * @return the Room itself
 	 */
-	public static Room getRoom(String roomType) {
-		if (roomType.equals())
-	}
+//	public static Room getRoom(String roomType) {
+//		if (roomType.equals())
+//	}
 }
