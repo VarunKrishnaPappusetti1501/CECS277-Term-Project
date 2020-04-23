@@ -8,17 +8,23 @@ import java.util.ArrayList;
  * Date: May 7, 2020
  */
 public abstract class MotelRoom {
+	
 	/** Description of the Room */
-	private String description;
+	public String description;
 	
 	/** Whether Do Not Disturb is on */
-	private boolean doNotDisturb;
+	public boolean doNotDisturb;
 	
 	/** The room number */
-	private int roomNumber;
+	public int roomNumber;
 	
 	/** The amenities */
-	private ArrayList<String> amenities;
+	public ArrayList<String> amenities;
+	
+	/** 
+	 * No argument constructor 
+	 */
+	public MotelRoom() {}
 	
 	/**
 	 * Constructor for a MotelRoom
