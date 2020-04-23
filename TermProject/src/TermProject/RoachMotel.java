@@ -1,7 +1,9 @@
 package TermProject;
 
+import java.util.ArrayList;
+
 /**
- * The Roach Motel will be the Singelton in the Singleton Design pattern
+ * The Roach Motel will be the Singleton in the Singleton Design pattern
  * @author Varun Krishna Pappusetti, Aaron Manithep, Edward Huang, Erika Mae Fajilago
  * Date: May 7, 2020
  */
@@ -15,7 +17,7 @@ public class RoachMotel {
 	/**
 	 * Number of Rooms in the roachMotel
 	 */
-	private int numRooms;
+	private int capacity;
 	
 	/**
 	 * Name of the motel
@@ -28,10 +30,15 @@ public class RoachMotel {
 	private boolean vacancy;
 	
 	/**
+	 * Available rooms
+	 */
+	private ArrayList<Integer> availableRooms;
+	
+	/**
 	 * Constructor for the RoachMotel 
 	 */
 	private RoachMotel() {
-		this.setNumRooms(5);
+		this.setCapacity(5);
 		this.setName("The Great Roach Motel");
 		this.setVacancy(true); // hotel is empty
 	}
@@ -48,16 +55,16 @@ public class RoachMotel {
 	 * Getting the number of Rooms
 	 * @return number of Rooms
 	 */
-	public int getNumRooms() {
-		return numRooms;
+	public int getCapacity() {
+		return capacity;
 	}
 	
 	/**
 	 * Set the number of Rooms
 	 * @param numRooms 
 	 */
-	public void setNumRooms(int numRooms) {
-		this.numRooms = numRooms;
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
 	}
 	
 	/**
