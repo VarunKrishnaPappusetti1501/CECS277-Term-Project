@@ -2,8 +2,16 @@ package TermProject;
 
 import java.util.ArrayList;
 
+/**
+ * Basic Room type of the superclass MotelRoom
+ * @author Varun Krishna Pappusetti, Aaron Manithep, Edward Huang, Ericka Mae Fajilago
+ * Date: May 7, 2020
+ */
 public class BasicRoom extends MotelRoom {
-	
+	/**
+	 * No argument constructor for BasicRoom
+	 */
+	public BasicRoom() {}
 	
 	/** 
 	 * Constructor for a BasicRoom
@@ -18,13 +26,11 @@ public class BasicRoom extends MotelRoom {
 
 	@Override
 	public double cost() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
